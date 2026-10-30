@@ -1,0 +1,31 @@
+.app { -fx-background-color: #10191e; -fx-font-family: "Segoe UI", "Inter", sans-serif; -fx-font-size: 13px; }
+.toolbar { -fx-background-color: #17242b; -fx-padding: 17 25; -fx-border-color: #2a3b43; -fx-border-width: 0 0 1 0; }
+.brand { -fx-text-fill: #eef9fa; -fx-font-size: 22px; -fx-font-weight: bold; }
+.eyebrow { -fx-text-fill: #7fa0a8; -fx-font-size: 10px; -fx-font-weight: bold; }
+.panel-title { -fx-text-fill: #e7f1f3; -fx-font-size: 16px; -fx-font-weight: bold; }
+.muted { -fx-text-fill: #82969e; -fx-font-size: 12px; }
+.viewport { -fx-background-color: #121e23; -fx-border-color: #2a414a; -fx-border-radius: 9px; -fx-background-radius: 9px; }
+.side-panel { -fx-background-color: #17242b; -fx-border-color: #2a3b43; -fx-border-width: 0 0 0 1; -fx-padding: 25 22; }
+.metric-list { -fx-background-color: #1d2d34; -fx-background-radius: 8px; -fx-padding: 16; }
+.metric-value { -fx-text-fill: #eaf5f5; -fx-font-size: 17px; -fx-font-weight: bold; }
+.q-values { -fx-text-fill: #bfd0d6; -fx-font-family: Consolas, monospace; -fx-font-size: 12px; }
+.training-metrics { -fx-text-fill: #d8e7e9; -fx-font-size: 12px; -fx-line-spacing: 3px; }
+.training-status { -fx-text-fill: #eaf5f5; -fx-font-size: 15px; -fx-font-weight: bold; }
+.chart-title { -fx-text-fill: #e8f2f3; -fx-font-size: 13px; -fx-font-weight: bold; }
+.chart-card { -fx-background-color: #18252b; -fx-background-radius: 6px; -fx-padding: 11; }
+.inspector-scroll, .inspector-scroll > .viewport { -fx-background-color: #17242b; }
+.scroll-bar:vertical { -fx-background-color: #17242b; }
+.scroll-bar:vertical .thumb { -fx-background-color: #3a515a; }
+.footer { -fx-background-color: #17242b; -fx-padding: 12 25; -fx-border-color: #2a3b43; -fx-border-width: 1 0 0 0; }
+.button { -fx-background-color: #29434a; -fx-text-fill: #eaf5f5; -fx-background-radius: 5px; -fx-padding: 9 12; -fx-cursor: hand; }
+.button:hover { -fx-background-color: #365962; }
+.button:disabled { -fx-opacity: 0.45; }
+.choice-box { -fx-background-color: #253840; -fx-mark-color: #4fd1c5; -fx-background-radius: 5px; }
+.text-field { -fx-background-color: #253840; -fx-text-fill: #eaf5f5; -fx-prompt-text-fill: #82969e; -fx-background-radius: 5px; }
+.choice-box .label { -fx-text-fill: #eaf5f5; }
+.context-menu { -fx-background-color: #253840; }
+.menu-item .label { -fx-text-fill: #eaf5f5; }
+.menu-item:focused { -fx-background-color: #365962; }
+.slider .track { -fx-background-color: #334b53; }
+.slider .thumb { -fx-background-color: #4fd1c5; }
+.axis { -fx-tick-label-fill: #a3b8be; }
